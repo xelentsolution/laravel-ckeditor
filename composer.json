@@ -29,5 +29,12 @@
 	"require": {
 		"illuminate/support": "~5.0"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Unisharp\\Ckeditor\\ServiceProvider"
+			]
+		}
+	}
 }
